@@ -16,6 +16,7 @@ namespace Mirror.Examples.AdditiveLevels
 
         [Tooltip("Reference to child TMP label")]
         public TMPro.TextMeshPro label;
+        
 
         [SyncVar(hook = nameof(OnLabelTextChanged))]
         public string labelText;
